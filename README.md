@@ -67,4 +67,4 @@ Let's add a second counter that increments by 5 and another that increments by 1
 What changes need to be made to make these counters function?
 
 ### Release 5: Bonus!
-Refactoring is the process of restructuring existing code without changing its external behavior. Can we refactor any of our code to make it more succinct without changing the way it works?
+Refactoring is the process of making code shorter, more readable, more re-usable, or all three. The hard part is, you have to do that without breaking anything. Can we refactor any of our code to make it more succinct without changing the way it works?
