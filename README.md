@@ -49,7 +49,7 @@ What do we need to do to add functionality to this markup? We'll start with sele
 
 There's a gif of the functioning counter below. Don't worry about the styling when the number is changing for now, we'll get to that in the next release!
  
- ![counter gif](/../master/counter.gif?raw=true "Optional Title")
+ ![counter gif](/../master/images/counter.gif?raw=true "Optional Title")
 
 ### Release 3: Add some style
 Ok, let's make it fancy! We've already added a stylesheet with the CSS needed to create the change effect. We just need to add the JavaScript to add and remove the classes associated with the styles. 
