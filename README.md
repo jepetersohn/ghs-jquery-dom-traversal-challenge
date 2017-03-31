@@ -27,8 +27,7 @@ Open up the traverse.html file and use jQuery to access, change, or add the foll
 - return the content of the h1 tag
 - update the last name to be "Eich" with a capital E
 - return all of the list items
-- add another div that has all of the elements of "person_1" but your information
-- ??? need to add some other things to do
+- add another div that has all of the elements of "person_1" but with your information
 
 
 ### Release 1: Event Binding
