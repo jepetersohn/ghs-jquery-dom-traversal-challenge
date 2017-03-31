@@ -7,15 +7,15 @@
 * Event binding
 
 ## Summary
-We will be using JQuery in place of vanilla JavaScript to select elements from the DOM, manipulate those element, and bind events to those elements.
+We will be using jQuery in place of vanilla JavaScript to select elements from the DOM, manipulate those element, and bind events to those elements.
 
-[JQuery](http://jquery.com/) is a very popular library that allows us to use JavaScript with a friendly syntax. JQuery uses CSS selectors to find elements within the dom. We reference JQuery with a $ and then pass the selector for the element we are looking for in as an argument
+[jQuery](http://jquery.com/) is a very popular library that allows us to use JavaScript with a friendly syntax. jQuery uses CSS selectors to find elements within the DOM. We reference jQuery with a `$` and then pass in the selector for the element we are looking for as an argument.
 
+```javascript
+$(".myelement")
 ```
- $(".myelement")
-```
 
-We can use the [JQuery Documentation](http://api.jquery.com/) to help us find the functions we need to complete the releases.
+We will be using the [jQuery Documentation](http://api.jquery.com/) to help us find the functions we need to complete the releases.
 
 ## Releases
 
