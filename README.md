@@ -2,9 +2,9 @@
 
 ## Learning Competencies
 
-* DOM manipulation.
-* DOM Traversal.
-* Event binding.
+* DOM manipulation
+* DOM Traversal
+* Event binding
 
 ## Summary
 We will be using JQuery in place of vanilla JavaScript to select elements from the DOM, manipulate those element, and bind events to those elements.
@@ -32,7 +32,7 @@ Open up the traverse.html file and use JQuery to access, change, or add the foll
 
 
 ### Release 1: Event Binding
-Every time we interact with the DOM events are emitted. We can hook into these events using JavaScript to perform actions when the events occur. For example when we click a button, a click event is fired. We can tap into that event and excecute some code when the button is clicked. 
+Every time we interact with the DOM events are emitted. We can hook into these events using JavaScript to perform actions when the events occur. For example when we click a button, a click event is fired. We can tap into that event and excecute some code when the button is clicked.
 
 The JQuery "on" function gives us a friendly syntax to bind to events. Here's the [documentation](http://api.jquery.com/on/) for "on".
 
@@ -48,13 +48,13 @@ Let's open the counter.html file. We have a nice looking counter but it doesn't 
 What do we need to do to add functionality to this markup? We'll start with selecting the elements on the page that we want to increment. In this case that will be the buttons. Then we'll need to add some code that will increment or decrement the text based on which button is clicked.
 
 There's a gif of the functioning counter below. Don't worry about the styling when the number is changing for now, we'll get to that in the next release!
- 
+
  ![counter gif](/../master/images/counter.gif?raw=true "Optional Title")
 
 ### Release 3: Add some style
-Ok, let's make it fancy! We've already added a stylesheet with the CSS needed to create the change effect. We just need to add the JavaScript to add and remove the classes associated with the styles. 
+Ok, let's make it fancy! We've already added a stylesheet with the CSS needed to create the change effect. We just need to add the JavaScript to add and remove the classes associated with the styles.
 
-When either of the buttons is clicked we want to add the class "changing" to the element that's wrapping the number. 
+When either of the buttons is clicked we want to add the class "changing" to the element that's wrapping the number.
 
 Great! We're halfway there. This just leaves us with a number that's red an slightly larger. We still need to remove that class to revert the number to it's original style
 
