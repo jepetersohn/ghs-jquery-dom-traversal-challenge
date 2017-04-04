@@ -25,7 +25,7 @@ We will be using the [jQuery Documentation](http://api.jQuery.com/) to help us f
 ### Release 0: Traversing and Manipulating the DOM
 The DOM refers to document object model. This is the representation of the document (a webpage) as a tree structure or hierarchy.
 
-Open up the `traverse.html` file and use jQuery to access, change, or add the following elements.
+View the `traverse.html` file to see the DOM that we'll be working with (DO NOT modify this file). Open the `traverse.js` file and use jQuery to access, change, or add the following elements.
 
 - Return the content of the h1 tag
 - Update the last name to be "Eich" with a capital E
