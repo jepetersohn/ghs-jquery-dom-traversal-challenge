@@ -1,3 +1,20 @@
 $(document).ready(function(){
-  // Write your code here
+var header = $("h1")
+  header.text()
+  header.on('click', function() {
+      $(".person").find("ul").slideToggle()
+  })
+  $(".last_name").text("Eich")
+  $("li")
+  $("#person_1").clone().appendTo("#person_1").attr("id", "person_2")
+  var list2 = $("#person_2")
+  list2.find(".first_name").text("Trentin")
+  list2.find(".last_name").text("Wilkens")
+  list2.find("li").first().text("HTML")
+  list2.find("li").first().attr("id", "firstElement")
+  $("#firstElement").on('click', function() {
+      alert($('#firstElement').text())
+  })
+  list2.find("ul").children(".the_best").text("JQuery")
+  list2.find("li").last().text("CSS")
 })
