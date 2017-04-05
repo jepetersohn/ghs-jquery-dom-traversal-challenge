@@ -25,7 +25,7 @@ We will be using the [jQuery Documentation](http://api.jQuery.com/) to help us f
 ### Release 0: Setup
 In this first release we want to make sure jQuery is loaded correctly.
 
-If we open the scripts.js file we can see that we are making the following call:
+If we open the traverse.js file we can see that we are making the following call:
 ``` JavaScript
 $(document).ready(function(){});
 ```
