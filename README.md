@@ -33,7 +33,7 @@ The code above is using a jQuery function, it is equivalent to saying `jQuery(do
 
 We want to run a few checks in our browser to make sure our setup is correct. 
 
-First, let's open the `index.html` file in Chrome, then open the JavaScript console (Shortcut: `Command + option + j`). Make sure you do not see this error:
+First, let's open the `traverse.html` file in Chrome, then open the JavaScript console (Shortcut: `Command + option + j`). Make sure you do not see this error:
 ![Image of console error](http://devbootcamp.netlify.com/img/jquery-javascript-error.png)
 
 Second, let's make sure that `$` and `jQuery` are the same thing by typing `$ === jQuery` in the console. Other JavaScript libraries and Chrome itself sometimes use the `$` as a shorthand. This is a way to make sure that it means jQuery.
