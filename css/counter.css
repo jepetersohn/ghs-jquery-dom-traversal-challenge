@@ -27,7 +27,7 @@
 .counter-wrapper {
   text-align: center;
 }
-#result {
+#result, #result5, #result10 {
     width:100%;
     text-align:center;
     -webkit-transition: all 0.2s;
@@ -40,4 +40,3 @@
     color:#f95a61;
     transform: scale(1.2);
 }
-
