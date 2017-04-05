@@ -1,3 +1,20 @@
 $(document).ready(function(){
-  // Write your code here
+
+$("#subtract").click(function()){
+  $( this ).closest();
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
 })
